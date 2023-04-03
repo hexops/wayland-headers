@@ -2,5 +2,4 @@
 /zig-*
 
 # Temporary package downloads
-/root
 /deb
