@@ -1,0 +1,6 @@
+# Zig stuff
+/zig-*
+
+# Temporary package downloads
+/root
+/deb
