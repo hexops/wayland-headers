@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-set -ex
+set -euo pipefail
+set -x
 
 if [ -d "wayland-protocols" ] ; then
   rm -rf wayland-protocols

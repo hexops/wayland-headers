@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-set -ex
+set -euo pipefail
+set -x
+
+./generate-wayland.sh
 
 rm include/* || true
 
