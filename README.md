@@ -1,6 +1,6 @@
 # wayland-headers packaged for the Zig build system
 
-This is a Zig package which provides various Wayland headers needed to develop and cross-compile e.g. GLFW applications. It includes generated wayland headers for:
+This is a Zig package which provides various Wayland headers needed to develop and cross-compile e.g. GLFW applications. It includes generated Wayland headers for GLFW:
 
 * xdg-shell
 * xdg-decoration
