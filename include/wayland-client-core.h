@@ -219,6 +219,9 @@ wl_proxy_get_tag(struct wl_proxy *proxy);
 const char *
 wl_proxy_get_class(struct wl_proxy *proxy);
 
+struct wl_display *
+wl_proxy_get_display(struct wl_proxy *proxy);
+
 void
 wl_proxy_set_queue(struct wl_proxy *proxy, struct wl_event_queue *queue);
 
