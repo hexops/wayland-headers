@@ -11,8 +11,8 @@ pub fn build(b: *std.Build) void {
         .optimize = optimize,
     });
 
-    lib.installHeadersDirectory("include", ".");
-    lib.installHeadersDirectory("wayland-generated", ".");
+    lib.installHeadersDirectory(.{ .path = "include" }, ".", .{});
+    lib.installHeadersDirectory(.{ .path = "wayland-generated" }, ".", .{});
 
     b.installArtifact(lib);
 }
